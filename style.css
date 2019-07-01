@@ -1,0 +1,10 @@
+
+.applying-list,
+.assignment-list {
+    list-style: decimal;
+}
+
+.resources-list {
+    list-style: disc;
+}
+
