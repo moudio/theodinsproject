@@ -238,6 +238,15 @@ h6 {
 
 
 
+@media only screen and (max-width: 576px) {
+
+	.em-col-xs-12 {
+		width: 90%;
+	}
+
+}
+
+
 
 /* COL -MD  */
 

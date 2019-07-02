@@ -514,6 +514,9 @@ h1 a {
         justify-content: space-between;
         padding: 0;
     }
+    main {
+        margin-top: 80px;
+    }
 
     .nav-links-one,
     .signup,
