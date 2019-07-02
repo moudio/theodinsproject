@@ -8,6 +8,7 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 33px 0;
+
 }
 
 .nav-links {
@@ -26,6 +27,11 @@ nav {
 
 nav ul li a:hover {
     color: black;
+}
+
+.bars {
+    font-size: 1.8em;
+    color: rgb(32, 129, 113);
 }
 .nav-links-one,
 .nav-links-two {
@@ -68,16 +74,12 @@ nav ul li a:hover {
     list-style: disc;
 }
 
-.community:hover + .forum-chat {
+.community a:hover + ul {
 display: block;
 }
-
-.forum-chat {
-    border: 0;
-    padding: 8px;
-    box-shadow: 0 5px 16px 0 rgba(0,0,0,0.1);
+.bars {
+    display: none;
 }
-
 .logo {
     display: flex;
     align-items: center;
@@ -105,9 +107,16 @@ display: block;
 }
 
 .forum-chat {
-    top: 22px;
+    top: 20px;
     position: absolute;
     width: 125px;
+    border: 0;
+    padding: 8px;
+    box-shadow: 0 5px 16px 0 rgba(0,0,0,0.1);
+}
+
+.forum-chat:hover {
+    display: block;
 }
 
 .intro-div {
@@ -442,6 +451,7 @@ h1 a {
     align-items: center;
 }
 
+
 .footer-social a {
     color: rgb(204, 149, 67);
     font-size: 24px;
@@ -486,3 +496,43 @@ h1 a {
     color: black;
     
 }
+
+
+
+@media only screen and (max-width: 880px) {
+    .logo-title {
+        font-size: 1.05em;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+    }
+    .signup,
+    .login {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 765px){
+    nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background:rgba(255, 255, 255);
+        justify-content: space-between;
+        padding: 0;
+    }
+
+    .nav-links-one
+     {
+        display: none;
+    }
+
+
+    .bars {
+        padding-right: 20px;
+        display: block;
+    }
+}
+
