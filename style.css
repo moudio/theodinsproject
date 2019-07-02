@@ -25,3 +25,290 @@
     list-style: disc;
 }
 
+
+/* HTML AND CSS SECTION*/
+
+.html-css {
+    width: 100%;
+    background: rgb(238, 238, 238);
+    padding: 70px 0;
+}
+
+.html-block {
+    width: 80%;
+    background: white;
+    margin: 0 auto 40px;
+    padding: 40px 60px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0 0.05em 0.25em 0;
+}
+
+.html-header {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #4A4A4A;
+}
+
+.html-info {
+    color: rgb(206, 151, 62);
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.html-block-buttons {
+    margin-top: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.view-button,
+.login-button,
+.lesson-button {
+    padding: 16px 56px;
+    margin: 0 20px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 0.05em 0.25em 0;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+.login-button {
+    background: rgb(106, 191, 195);
+}
+
+.login-button:hover {
+    background: rgb(129, 195, 199);
+}
+
+.view-button,
+.lesson-button{
+    background: rgb(206, 151, 62);
+}
+
+.view-button:hover,
+.lesson-button:hover {
+    background: rgb(201, 156, 85);
+}
+
+/* QUESTION SECTION */
+
+.question {
+    width: 80%;
+    padding: 80px 40px;
+    margin: 0 auto;
+}
+
+.question-heading {
+    font-size: 40px;
+    text-align:center;
+    margin: 0 75px 16px;
+    color: rgba(74,74,74, 0.7);
+}
+
+.question-info {
+    font-size: 20px;
+    text-align:center;
+    margin: 0 0 45px;
+    color: rgba(74,74,74, 0.7);
+}
+
+.discord-button {
+    padding: 16px 56px;
+    margin: 0 auto 20px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 0.05em 0.25em 0;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    background: rgb(206, 151, 62);
+    display: inline-block;
+}
+
+.discord-button:hover {
+    background: rgb(201, 156, 85);
+}
+
+
+
+/* LEARNING WEB DEVELOPMENT SECTION */
+.accelerate {
+    width: 80%;
+    margin: 0 auto 40px;
+    padding: 40px 60px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 0 0.05em 0.25em 0;
+}
+
+.accelerate-top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.accelerate-top p {
+    font-size: 26px;
+    width: 70%;
+    line-height: 1.2;
+}
+
+.start-button {
+    padding: 16px 56px;
+    margin: 0 auto 20px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 0.05em 0.25em 0;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    background: rgb(106, 191, 195);
+    display: inline-block;
+}
+
+.start-button:hover {
+    background: rgb(126, 195, 199);
+}
+
+.accelerate-bottom {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.accelerate-bottom-title {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo-bottom {
+    vertical-align: middle;
+}
+
+.thinkful {
+    color: #11343D;
+    letter-spacing: 0.4px;
+    font-weight: bold;
+    font-size: 1.6em;
+    display: inline-block;
+    padding-left: 0.5em;
+}
+
+
+.accelerate-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.accelerate-list li {
+    display: flex;
+    align-items: center;
+    
+    padding: 0 20px;
+}
+
+.accelerate-list li p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    background: white;
+    width: 100%;
+    height: 277px;
+
+}
+
+.footer-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 507px;
+    height: 277px;
+}
+
+.footer-odin {
+    vertical-align: middle;
+}
+
+.logo-text {
+    color: rgb(204, 149, 67);
+    letter-spacing: 0.4px;
+    font-weight: bold;
+    font-size: 1.6em;
+    display: inline-block;
+    padding-left: 0.5em;
+}
+
+.footer-social {
+    display: flex;
+    width: 253px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-social a {
+    color: rgb(204, 149, 67);
+    font-size: 24px;
+    width: 63px;
+    height: 36px;
+}
+
+.footer-social a:hover {
+    color: black;
+}
+
+.footer-links {
+    display: flex;
+    width: 507px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-links-one,
+.footer-links-two  {
+    font-weight: bold;
+    width: 130px;
+    height: 90px;
+    font-size: 20px;
+}
+
+.footer-links-one li,
+.footer-links-two li {
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+.footer-links-one a,
+.footer-links-two a {
+    text-decoration: none;
+    color: rgba(116, 97, 97, 0.7);
+    
+}
+
+.footer-links-one a:hover,
+.footer-links-two a:hover {
+    color: black;
+    
+}
