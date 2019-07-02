@@ -215,7 +215,7 @@ h1 a {
     width: 80%;
     background: white;
     margin: 0 auto 40px;
-    padding: 40px 60px;
+    padding: 40px 40px;
     box-shadow: rgba(0, 0, 0, 0.15) 0 0.05em 0.25em 0;
 }
 
@@ -326,7 +326,7 @@ h1 a {
 .accelerate {
     width: 80%;
     margin: 0 auto 40px;
-    padding: 40px 60px;
+    padding: 40px 35px;
     background: white;
     box-shadow: rgba(0, 0, 0, 0.15) 0 0.05em 0.25em 0;
 }
@@ -368,11 +368,6 @@ h1 a {
     justify-content: space-between;
 }
 
-.accelerate-bottom-title {
-    width: 50%;
-    display: flex;
-    justify-content: flex-start;
-}
 
 .logo-bottom {
     vertical-align: middle;
