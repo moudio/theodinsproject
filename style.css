@@ -280,6 +280,7 @@ h1 a {
     width: 80%;
     padding: 80px 40px;
     margin: 0 auto;
+    
 }
 
 .question-heading {
@@ -296,6 +297,12 @@ h1 a {
     color: rgba(74,74,74, 0.7);
 }
 
+.get-started {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .discord-button {
     padding: 16px 56px;
     margin: 0 auto 20px;
@@ -304,10 +311,9 @@ h1 a {
     color: white;
     font-weight: bold;
     text-decoration: none;
-    text-align: center;
     font-size: 20px;
     background: rgb(206, 151, 62);
-    display: inline-block;
+    
 }
 
 .discord-button:hover {
@@ -387,19 +393,24 @@ h1 a {
     justify-content: center;
     align-items: center;
     
+    
 }
 
 .accelerate-list li {
     display: flex;
     align-items: center;
-    
-    padding: 0 20px;
+    flex-direction: column;
+    width: 180px;
+
 }
 
 .accelerate-list li p {
     font-size: 20px;
     font-weight: bold;
+    padding-top: 10px;
+
 }
+
 
 
 
@@ -492,6 +503,66 @@ h1 a {
 }
 
 
+@media only screen and (max-width: 1020px) {
+    .logo-text {
+        font-size: 19px;
+    }
+
+    .footer-social {
+        width: 196px;
+    }
+
+    .footer-links {
+        width: 386px;
+    }
+
+    .footer-odin {
+        width: 45px;
+        height: 60px;
+    }
+
+    .footer-links-one,
+    .footer-links-two  {
+        font-weight: bold;
+        width: 130px;
+        height: 90px;
+        font-size: 16px;
+    }
+}
+
+
+@media only screen and (max-width: 992px){
+
+    .accelerate-top,
+    .accelerate-bottom,
+    .accelerate-bottom-info,
+    .html-block-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .view-button,
+    .login-button,
+    .lesson-button {
+        width: 80%;
+        margin: 10px 0;
+    }
+
+
+    .accelerate-top p {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .accelerate-bottom-info {
+        margin-top: 40px;
+    }
+    
+}
+
+
 
 @media only screen and (max-width: 880px) {
     .logo-title {
@@ -530,5 +601,29 @@ h1 a {
         padding-right: 20px;
         display: block;
     }
+
+    .footer-brand {
+        display: none;
+    }
+
+    .footer-social,
+    .footer-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+
+    .accelerate-list {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .accelerate-list li {
+        padding-bottom: 30px;
+    }
+
+    
 }
 
