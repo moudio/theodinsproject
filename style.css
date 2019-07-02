@@ -603,6 +603,24 @@ h1 a {
         display: none;
     }
 
+    .footer-social,
+    .footer-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+
+    .accelerate-list {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .accelerate-list li {
+        padding-bottom: 30px;
+    }
+
     
 }
 
