@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="framework.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" integrity="sha256-39jKbsb/ty7s7+4WzbtELS4vq9udJ+MDjGTD5mtxHZ0=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Skranji&display=swap" rel="stylesheet">
     <title>The Odins Project</title>
 </head>
 <body>
@@ -14,18 +15,21 @@
                     <header>
                         <nav>
                             <div class="logo">
-                                <img src="images/odin-logo.svg" alt="odin logo">
+                                <a href="#"><img src="images/odin-logo.svg" alt="odin logo"></a>
+                                <h2 class="logo-title"><a href="#">THE ODIN PROJECT</a></h2>
                             </div>
                             <div class="nav-links">
                               <ul class="nav-links-one">
                                   <li><a href="#">Curriculum</a></li>
-                                  <li><a href="#">Community</a></li>
-                                    <ul>
-                                            <li><a href="#"><i class="fas fa-users"></i>Forum</a></li>
-                                            <li><a href="#"><i class="fas fa-comment"></i> Chat</a></li>
+                                  <li class="community"><a href="#">Community <i class="fas fa-caret-down"></i></a>
+                                    <ul class="forum-chat">
+                                            <li><a href="#"><i class="fas fa-users"></i>  Forum</a></li>
+                                            <li><a href="#"><i class="fas fa-comment"></i>  Chat</a></li>
                                     </ul>
+                                </li>
                                   <li><a href="#">About</a></li>
                                   <li><a href="#">FAQ</a></li>
+                                  <li><a href="#">|</a> </li>
                               </ul>
                               <ul class="nav-links-two">
                                     <li><a href="#">Sign Up</a></li>
@@ -38,14 +42,14 @@
             </div>
 
             <div class="em-row">
-                <div class="em-col-sm-1">
+                <div class="em-col-sm-1 intro-div">
                     <div class="intro-logo">
                         <a href="#"><img src="images/badge-html-css.svg" alt="html css badge" class="html-badge"></a>
                     </div>
 
                     <div class="intro-title">
-                        <h6><a href="#">HTML and CSS</a></h6>
-                        <h2>PROJECT: DESIGN YOUR OWN GRID-BASED FRAMEWORK</h2>
+                        <h1 class="html-css-title"><a href="#">HTML and CSS</a></h1>
+                        <h2 class="project-title">PROJECT: DESIGN YOUR OWN GRID-BASED FRAMEWORK</h2>
                     </div>
 
 
@@ -54,8 +58,8 @@
             </div>
 
             <div class="em-row">
-                <div class="em-col-sm-1">
-                    <section class="one">
+                <div class="em-col-8 lesson-content">
+                    <section >
                             <article>
                                <h3>Introduction</h3>
                                <p>
@@ -71,7 +75,7 @@
                         <article>
                             <h3>Assignment</h3>
                             <p>You will be creating your own grid-based framework</p>
-
+<div class="lesson-content-panel">
                             <ol class="assignment-list">
                                 <li>Follow the instructions atop the <a href="#">Google Homepage project</a> to set up a Github repository for this project (of course you’ll need to change the title).</li>
                                 <li>Create a new CSS document.</li>
@@ -90,6 +94,7 @@
                                 <li>Push your solution to Github.</li>
                                 <li>Have a frosty beverage, you’re done with the HTML/CSS projects!</li>
                             </ol>
+                        </div>
                         </article>
                     </section>
 
