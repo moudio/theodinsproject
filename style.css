@@ -516,12 +516,12 @@ h1 a {
     }
 
     .footer-links-one,
-.footer-links-two  {
-    font-weight: bold;
-    width: 130px;
-    height: 90px;
-    font-size: 16px;
-}
+    .footer-links-two  {
+        font-weight: bold;
+        width: 130px;
+        height: 90px;
+        font-size: 16px;
+    }
 }
 
 
@@ -597,5 +597,7 @@ h1 a {
     .footer-brand {
         display: none;
     }
+
+    
 }
 
