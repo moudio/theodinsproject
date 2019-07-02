@@ -43,14 +43,17 @@ table {
 	border-spacing: 0;
 }
 
+.forum-chat {
+	display: none;
+}
 /* GRIDS */
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 
 
 body {
-    font-family: 'Roboto', 'sans-serif';
+	font-family: 'Open Sans', sans-serif;
+	min-width: 896px;
 }
 
 h1,
@@ -110,8 +113,13 @@ h6 {
 
 .em-col-6,
 .em-col-4,
-.em-col-3  {
-	margin: auto 1%; 
+.em-col-3,
+.em-col-5,
+.em-col-7,
+.em-col-8,
+.em-col-9,
+.em-col-10  {
+	margin: 1% auto; 
 
 }
 
@@ -119,6 +127,7 @@ h6 {
 .em-col {
     width: 100%;
 }
+
 
 .em-col-6 {
 	width: 48%;
@@ -129,6 +138,28 @@ h6 {
 
 	
 }
+
+.em-col-7 {
+	width: 58.33%;
+}
+
+.em-col-8 {
+	width: 66.67%;
+}
+
+.em-col-9 {
+	width: 75%;
+}
+
+.em-col-10 {
+ width: 83.33%;
+}
+
+.em-col-11 {
+	width: 91.67%;
+}
+
+
 
 .em-col-3 {
     width: 31.3%
