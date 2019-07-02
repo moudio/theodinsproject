@@ -1,4 +1,21 @@
 
+
+.html-badge {
+    width: 110px;
+    height: 110px;
+}
+
+.logo-bottom {
+    width: 60px;
+    height: 60px;
+}
+
+.bottom-icon {
+    width: 47px;
+    height: 40px;
+}
+
+
 .applying-list,
 .assignment-list {
     list-style: decimal;
